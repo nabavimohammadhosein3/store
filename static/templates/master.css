@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Pacifico&family=Red+Hat+Display&family=Ubuntu:wght@300&display=swap');
+
+:root{
+  --font4: 'Edu NSW ACT Foundation', cursive;
+  --font1: 'Pacifico', cursive;
+  --font3: 'Red Hat Display', sans-serif;
+  --font2: 'Ubuntu', sans-serif;
+}
+.material-symbols-outlined{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.upper_btn{
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  border-color: rgba(240, 248, 255, 0);
+  padding-bottom: 0;
+}
+.upper_btn:hover{
+  border-bottom-color: rgb(84, 101, 255);
+}
